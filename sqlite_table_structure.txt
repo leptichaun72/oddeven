@@ -1,0 +1,21 @@
+moz_places is a table name,
+field is place_id
+
+place_id Integer not null
+content Longvarchar
+expiration Integer default 0
+dateAdded Integer default 0
+1604039196906000
+lastModified Integer default 0
+1604039196906000
+last_visit_date Integer
+1604039195109000
+url Longvarchar
+title Longvarchar
+rev_host Longvarchar
+hidden Integer not null default 0
+expireTime Integer
+modificationTime Integer
+appId Integer
+isInBrowserElement Integer
+
