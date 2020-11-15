@@ -3,3 +3,6 @@ database called foo
 
 pugjs var and if cond
 render 1.odd 2.even 3.both
+1. Counting.query.filter_by(odd_even_id=1).all()
+2. Counting.query.filter_by(odd_even_id=1).all()
+3. Counting.query.all()
