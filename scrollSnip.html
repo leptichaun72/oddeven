@@ -1,0 +1,24 @@
+<body style="font-size:3em">
+<button onclick="window.scrollTo(0,document.body.scrollHeight);
+" style="line-height:0;width:100%;height:8em">
+<h1>ckick me</h1>
+</button>
+<ul>
+{% for in in range(49) %}
+	<li>alakazam</li>
+{% endfor %}
+	<li id="pin">pincer</li>
+</ul>
+<script>
+	var ul =document.querySelector("ul")
+	var elem =document.querySelector("li")
+	alert(elem)
+	alert(elem.innerHTML)
+	alert(ul.children[ul.children.length-1].innerHTML)
+	alert(ul.lastElementChild.innerHTML)
+	alert(ul.children.length)
+	ul.childNodes.forEach((x)=>{
+			alert(x.innerText);
+	})
+</script>
+</body>
